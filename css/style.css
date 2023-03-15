@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.eot"); /* IE 9 Compatibility Mode */
+    src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"),
+      /* IE < 9 */ url("../fonts/gilroy-medium.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("../fonts/gilroy-medium.woff")
+        format("woff"),
+      /* Firefox >= 3.6, any other modern browser */
+        url("../fonts/gilroy-medium.ttf") format("truetype"),
+      /* Safari, Android, iOS */ url("../fonts/gilroy-medium.svg#gilroy-medium")
+        format("svg"); /* Chrome < 4, Legacy iOS*/
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Bold ☞";
+    font-style: bold;
+    font-weight: normal;
+    src: local("Gilroy-Bold"), url("Gilroy-Bold.woff") format("woff");
+  }
+  
+  /*@font-face {
+    font-family: "Gilroy-Heavy";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Gilroy-Heavy"), url("Gilroy-Heavy.woff") format("woff");
+  }*/
+  
+  /*@font-face {
+    font-family: "Gilroy-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Gilroy-Light"), url("Gilroy-Light.woff") format("woff");
+  }*/
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Gilroy-Medium"), url("Gilroy-Medium.woff") format("woff");
+  
+    /*font-weight: 700;*/
+  }
+  
+  /*@font-face {
+    font-family: "Gilroy-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Gilroy-Regular"), url("Gilroy-Regular.woff") format("woff");
+      font-family: "Gilroy-Bold ☞";
+    font-weight: 700;
+    font-style: regular;
+  }*/
+  
+  * {
+    box-sizing: border-box;
+    /*margin: 0px auto;*/
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:66%;
+    margin: 0% 17% 0% 17%;
+  }
+  
+  .nav {
+    /* display: inline;*/
+    /* flex-wrap: nowrap;
+    justify-content: center;*/
+    /*align-items:baseline;
+    max-width: 100vw;*/
+    margin-top: 0;
+    margin-bottom: 35px; /*пересчитать в vw*/
+    height: 18px;
+  }
+  ul,
+  li {
+    min-width: 943.61px;
+    max-width: 66%;
+    white-space: nowrap;
+    padding: auto;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .menu-link {
+    color: #070707;
+    list-style-type: none;
+    font-size: 18px;
+    font-style: bold;
+    text-transform: uppercase;
+  }
+  .menu-item {
+    display: inline;
+    margin-left: 0;
+    margin-right: 15%;
+  }
+  
+  .person {
+    width: 963.61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .name_person {
+    left: 17.37%;
+    right: 74.08%;
+    top: 2.69%;
+    bottom: 94.82%;
+    font-family: "Gilroy-Medium";
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+  }
+  .carier_age_location {
+    display: flex;
+    align-items: center;
+  
+    left: 46.49%;
+    right: 42.74%;
+    top: 3.85%;
+    bottom: 95.22%;
+  
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+  }
+  .languege {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    padding-right:0px;
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    line-height: 0px;
+    
+    
+    color: #828282;
+  
+    transform: rotate(-90deg);
+  }
+  .eng {
+    color: #000000;
+  }
+  .myPhoto {
+    display:flex;
+    width: 943.61px;
+    height: 387px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 276.94px;
+    align-self: center;
+    align-items: center;
+  }
+  .Rectbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 943.61px;
+    height: 506px;
+    left: 0px;
+    top: 768px;
+
+background: #F6F6F6;
+  }
+  .Rectangle {
+    display: flex;
+    flex-direction: column;
+    height: 506px;
+    align-items: center;
+    text-align: center;
+    margin-top: 7px;
+    background: #F6F6F6;
+  }
+  .title {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    item-align: center;
+    color: #070707;
+  }
+  .about_me_content {
+    width: 485.34px;
+    height: 218px;
+    margin: auto;
+    line-height: 22px;
+  
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+  }
+  
+
+  
